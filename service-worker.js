@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/seif0912/task-tracker.git/precache-manifest.c1ecd4750bbec8578a95f48ba35ebff0.js"
+  "/task-tracker/precache-manifest.7bc040871d7c313a346bbffa833387e1.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/seif0912/task-tracker.git/index.html", {
+workbox.routing.registerNavigationRoute("/task-tracker/index.html", {
   
   blacklist: [/^\/_/,/\/[^/]+\.[^/]+$/],
 });
